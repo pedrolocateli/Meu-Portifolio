@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifolio </title>
+
+    
+
+   <style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body {
+
+    background: url(imagem/fundo.jpg);
+    background-position: center;height: 98vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+ }
+  .imagem-menu{
+    display: flex;
+    max-width: 100px;
+    border-radius: 50px;
+    box-shadow: 0.1px 2px 5px rgba(0, 0, 0, 0.521);
+    
+    
+   }
+   
+   a{
+       
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 1px black;
+    font-family: "Poppins", sans-serif;
+    
+   }
+
+   /*a:hover{
+   
+     color: rgba(0, 0, 0, 0.637);
+     background-color: #a6988a;
+     padding: 4px;
+     border-radius: 10px;
+     border: 2px solid  rgba(0, 0, 0, 0.336);
+     transition: 1s;
+
+   }*/
+
+   nav ul {
+
+    list-style: none;
+   }
+
+
+   nav ul{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   
+   
+   }
+
+   nav a {
+
+    display: flex;
+    margin: 10px;
+   }
+
+  
+   
+   .conteiner-header {
+
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+
+    margin-bottom: 20px;
+    
+
+    
+   }
+   header {
+
+    
+    background-color:#4bb4ca ;
+    padding: 11px;
+   
+   }
+
+
+   /* Configuração main */
+
+   h1{
+
+    color: white;
+    text-shadow: 0.5px 0.5px 1px black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+   }
+
+   h2 {
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    text-shadow: 0.5px 0.5px 1px black;
+    font-family: "Poppins", sans-serif;
+
+   }
+ p{
+    color: white;
+    width: 500px;
+    text-shadow: 0.5px 0.5px 1px black;
+    font-family: "Poppins", sans-serif;
+    
+ }
+   .imagem-ilustracao {
+
+    width: 500px;
+    border-radius: 10px;
+    
+   }
+   .conteiner-main {
+
+    display: flex;
+    margin-top: 20px;
+    max-width: 1050px;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+   
+
+   @media  screen and (max-width:990px){
+      .{
+            padding: 0px;
+            margin: 0px;
+      }
+    .conteiner-main{
+        
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+        
+       
+    
+    }
+    .paragrafo-inicio {
+            
+            margin-bottom: 30px;
+            margin-left: 10px;
+            width: 450px;
+            
+    }
+    p{
+
+        width: 450px;
+    }
+
+    .imagem-ilustracao {
+
+        width: 480px;
+
+    }
+    
+   }
+
+   .paragrafo-inicio{
+
+            display: flex;
+            flex-direction: column;
+            width: 500spx;
+            background: rgba(255, 255, 255, 0.096);
+            padding: 10px;
+            border-radius: 20px;
+   }
+
+   #fundo-azul{
+    margin-top: 30px;
+    background-color: #4bb4ca;
+    height: 300px;
+    
+    
+   }
+   div#fundo-azul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: ;
+    
+   }
+
+   div#fundo-azul a{
+     font-size: 30px;
+   }
+
+   .seta {
+    position: relative;
+    padding: 3rem; /* Arrow size */
+          box-shadow: 1px -1px 0 1px white inset;
+    -webkit-box-shadow: 2px -2px white inset;
+    border: solid transparent;
+     border-width: 0 0 2rem 2rem;
+    transition: 0.2s;
+}
+
+.seta-baixo { transform:rotate(313deg) }
+
+.imagem-trabalho {
+    
+    width: 500px;
+    height: 250px;
+    background:#4bb4ca ;
+    margin: 30px;
+}
+
+.container-imagem {
+     
+    flex-wrap: wrap;
+    margin-top: 20px; 
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin:  0 auto;
+    margin-top: 30px;
+
+}
+.div-img{
+
+    width: 500px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+   </style>
+</head>
+<body>
+    
+
+
+
+    <header class="conteiner-header"  id="conteiner-header">
+    
+
+        <img src="imagem/1720177999419.jpg" class="imagem-menu">
+
+         <nav>
+            <ul> 
+                <li><a href="inicio">Home</a></li>
+                <li><a href="Conteudo">Conteudo</a></li>
+                <li><a href="Contato">Contato</a></li>
+                 
+            </ul>
+         </nav>
+
+
+    </header>
+
+    <main>
+
+         <section class="conteiner-main">
+                <div class="paragrafo-inicio">
+            
+                    <h1> Pedro Locateli Neto</h1>
+                    <h2>Desenvolvedor Web Aspirante | Estudante Apaixonado por Tecnologia</h2>
+                    <p> 
+                          <strong> Entusiasta</strong> de tecnologia embarcando na jornada do <strong>desenvolvimento web</strong>. Atualmente estudando 
+                           e buscando oportunidades  para aplicar minhas habilidades emergentes. Minhas principais áreas 
+                           de interesse incluem:
+                           
+                         </p>
+                         <br>
+                         <p>
+                            <strong>Desenvolvimento Front-end</strong>: aprendendo <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> para criar 
+                            interfaces atraentes e responsivas.
+                            
+                         </p>
+                         <br>
+                         <p><strong>Construção de Projetos Pessoais: Empenhado em aplicar conceitos aprendidos em projetos práticos.</strong></p>
+    
+                </div>
+  
+              <img src="imagem/ilustracao.jpg" class="imagem-ilustracao">
+
+         </section>
+
+      
+
+         
+
+    </main>
+    <section>
+        <div id="fundo-azul">
+            <H2>
+                <a href="" class="conteudo-azul">CONTEÚDO</a>
+            </H2>
+
+            <div class="seta seta-baixo">
+                
+                 
+                
+
+            </div>
+        </div>
+
+        
+    </section>
+    <main>
+    
+         <section class="container-imagem">
+            <div class="imagem-trabalho">
+                 <img src="imagem/3262239.jpg" class="div-img">
+                 <p>Landig Page</p>
+            </div>
+            <div class="imagem-trabalho">
+                <img src="imagem/7858910.jpg" class="div-img">
+                <p>Landig Page</p>
+            </div>
+            <div class="imagem-trabalho">
+                <img src="imagem/2257233.jpg" class="div-img">
+                <p>Landig Page</p>
+            </div>
+            <div class="imagem-trabalho">
+                <img src="imagem/4905662.jpg" class="div-img">
+                <p>Landig Page</p>
+            </div>
+         </section>
+
+    </main>
+      
+    <section id="contato">
+
+
+    </section>
+</body>
+</html>
