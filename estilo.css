@@ -249,3 +249,86 @@
     align-items: center;
     margin: 0 auto;
 }
+
+label {
+
+  color: #fff;
+}
+
+
+#contato {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #4bb4ca ;
+}
+
+#contato h1{
+
+  text-align: center;
+}
+#mensagem {
+
+       width:400px;
+       border-radius: 10px;
+       margin-bottom: 15px;
+
+}
+
+label {
+  
+   display: flex;
+   line-height:3em;
+
+
+}
+
+input{
+
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  height: 25px;
+  border-radius: 10px;
+  
+ 
+}
+
+form {
+
+  background: #ffffff65;
+ padding: 10px;
+ margin-top: 10px;
+ border-radius: 20px;
+ margin-bottom: 15px;
+ text-shadow: 0.5px 0.5px 1px black;
+
+}
+
+
+button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin: 0 auto;
+
+  width: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  text-shadow: 0.5px 0.5px 1px black;
+  color: #fff;
+
+  background-color: #ffffff68;
+
+}
+
+footer {
+
+
+
+
+  margin-top: 200px;
+}
